@@ -1,0 +1,118 @@
+/* mobile responsive style start */
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    /* ------------------
+        navigation style 
+       ------------------- */
+       nav{
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+       }
+       nav .manu-list ul{
+        flex-direction: column;
+       }
+    /* -------------------
+        new brand style
+       ------------------- */
+    .brand-title{
+        width: 100%;
+        margin-top: 60%;
+    }
+    /* ----------------------
+           feature style
+       ---------------------- */
+    .features{
+        flex-direction: column;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-images img{
+        width: 100%;
+    }
+    /* --------------------------------------
+            love and enjoy section style 
+       -------------------------------------- */
+    .love-and-enjoy{
+        flex-direction: column-reverse;
+    }
+    .love-and-enjoy-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+    }
+    .love-and-enjoy-images img{
+        height: 45%;
+        width: 100%;
+    }
+    .love-and-enjoy-images .btn{
+        position: relative;
+    }
+    .stylish-h2{
+        width: 88%;
+    }
+    .vertical-line{
+        width: 11px;
+        height: 145px;
+    }
+    /* --------------------------
+          facts section style 
+       -------------------------- */
+    .facts-details{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    /* ---------------------------
+        sponspor section style
+       --------------------------- */
+    .sponspor-items{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    .sponspor-items img{
+        width: 70%;
+    }
+}
+/* mobile responsive style end */
+/* tablet responsive style start */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /* -------------------------------
+            features section style
+       ------------------------------- */
+    .features{
+        flex-direction: column;
+    }
+    /* ---------------------------------------
+            love and enjoy section style 
+       ---------------------------------------*/
+    .love-and-enjoy{
+        flex-direction: column-reverse;
+    }
+    .love-and-enjoy-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .love-and-enjoy-images img{
+        height: 45%;
+        width: 982px;
+    }
+    .stylish-h2{
+        width: 73%;
+    }
+    .vertical-line{
+        width: 11px;
+        height: 105px;
+    }
+    /* --------------------------
+        sponspor section style
+       -------------------------- */
+    .sponspor-items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10%;
+    }
+}
